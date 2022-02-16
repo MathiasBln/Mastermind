@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="monStyle.css">
+    <title>MASTERMIND</title>
+</head>
+
+<body>
+
+    <div id="board">
+        <div id="botPart">
+            <section class="cercleBot" id="cercle1"></section>
+            <section class="cercleBot" id="cercle2"></section>
+            <section class="cercleBot" id="cercle3"></section>
+            <section class="cercleBot" id="cercle4"></section>
+        </div>
+
+        <div id="playerPart"> 
+            <section class="cerclePlayer" id="cclPlayer1"></section>
+            <section class="cerclePlayer" id="cclPlayer2"></section>
+            <section class="cerclePlayer" id="cclPlayer3"></section>
+            <section class="cerclePlayer" id="cclPlayer4"></section>
+        </div>
+    </div>
+
+    <div id="info">
+        <div id="score">
+            <h4><span id="good"></span> bien placé(s)</h4>
+            <h4><span id="notgood"></span> mal placé(s)</h4>
+            <h4>il vous reste <span id="round">10</span> essai(s)</h4>
+            <h1 id="WinOrLose"></h1>
+            <a href="index.html"><h2 id="rejouer"></h2></a>
+        </div>
+        <div id="colors">
+            <section  class="square" id="square1"></section>
+            <section  class="square" id="square2"></section>
+            <section  class="square" id="square3"></section>
+            <section  class="square" id="square4"></section>
+            <section  class="square" id="square5"></section>
+            <section  class="square" id="square6"></section>
+        </div>
+
+        <div>
+            <select name="colorsPlayer" id="player1">
+                <option value="0">Red</option>
+                <option value="1">Purple</option>
+                <option value="2">Yellow</option>
+                <option value="3">Blue</option>
+                <option value="4">Pink</option>
+                <option value="5">Chartreuse</option>
+            </select>
+            <select name="colorsPlayer" id="player2">
+                <option value="0">Red</option>
+                <option value="1">Purple</option>
+                <option value="2">Yellow</option>
+                <option value="3">Blue</option>
+                <option value="4">Pink</option>
+                <option value="5">Chartreuse</option>
+            </select>
+            <select name="colorsPlayer" id="player3">
+                <option value="0">Red</option>
+                <option value="1">Purple</option>
+                <option value="2">Yellow</option>
+                <option value="3">Blue</option>
+                <option value="4">Pink</option>
+                <option value="5">Chartreuse</option>
+            </select>
+            <select name="colorsPlayer" id="player4">
+                <option value="0">Red</option>
+                <option value="1">Purple</option>
+                <option value="2">Yellow</option>
+                <option value="3">Blue</option>
+                <option value="4">Pink</option>
+                <option value="5">Chartreuse</option>
+            </select>
+            <button type="button" id="playerValues">Récupérer les valeur</button>
+            <button type="button" id="result">Resultat</button>
+        </div>
+    </div>
+    <script src="scriptBot.js"></script>
+
+</body>
+
+</html>
