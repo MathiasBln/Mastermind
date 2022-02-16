@@ -5,10 +5,10 @@
 Construire un mastermind où l'ordinateur construit une séquence de 4 couleurs et l'utilisateur tente de la découvrir.
 
 # Fonctionnement minimal
-- L'ordinateur doit trouver une séquence aléatoire de 4 couleurs (pouvant se répéter) parmi un choix de 5 couleurs différentes.
-- L'utilisateur doit pouvoir proposer une séquence de 4 couleurs.
-- L'ordinateur doit pouvoir comparer sa séquence à celle de l'utilisateur pour déterminer le nombre de couleurs bien placées et de couleurs mal placées.
-- L'ordinateur doit pouvoir fournir le résultat de la comparaison à l'utilisateur.
+- L'ordinateur doit trouver une séquence aléatoire de 4 couleurs (pouvant se répéter) parmi un choix de 5 couleurs différentes. DONE
+- L'utilisateur doit pouvoir proposer une séquence de 4 couleurs. ,DONE
+- L'ordinateur doit pouvoir comparer sa séquence à celle de l'utilisateur pour déterminer le nombre de couleurs bien placées et de couleurs mal placées. DONE
+- L'ordinateur doit pouvoir fournir le résultat de la comparaison à l'utilisateur. DONE
 - Les couleurs sont représentées par une lettre.
 
 # Fonctionnalités bonus
