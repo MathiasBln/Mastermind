@@ -98,6 +98,7 @@ function compareSequence() {
     if (round == 10){
         document.getElementById('WinOrLose').innerHTML="Perdu";
         document.getElementById('rejouer').innerHTML="Cliquez ici pour rejouer";
+        document.getElementById("colorSection").style.display="none";
     }
 }
 
